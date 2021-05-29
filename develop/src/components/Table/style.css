@@ -1,0 +1,10 @@
+th{
+    padding: 1rem 2rem;
+}
+button{
+    padding: 0.5rem 3rem;
+    border-width: 0.5px;
+    margin-bottom: 1rem;
+    background-color: #f1ffff;
+    color: #3D5A80;
+}

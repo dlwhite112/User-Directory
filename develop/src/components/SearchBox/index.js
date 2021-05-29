@@ -8,7 +8,7 @@ export default function SeachBox(props) {
         onChange={props.handleInputChange}
         placeholder="Search Directory"
         type="text"
-        className="form-control"
+        className="mb-5 rounded-pill p-1 text-center"
       />
     </div>
   );

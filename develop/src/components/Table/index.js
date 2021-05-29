@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css";
 import TableData from "../TableData";
 import API from "../../utils/API";
 import SeachBox from "../../components/SearchBox/index";
@@ -67,21 +68,41 @@ export default class Table extends Component {
           value={this.state.search}
           handleInputChange={this.handleInputChange}
         />
-        <table>
+        <table className="mx-auto">
           <thead>
             <tr>
               <th></th>
               <th>
-                <button onClick={this.nameSort}>Name 🔼</button>
+                <button
+                  className="rounded-3 border border-1"
+                  onClick={this.nameSort}
+                >
+                  Name 🔼
+                </button>
               </th>
               <th>
-                <button onClick={this.phoneSort}>Phone 🔼</button>
+                <button
+                  className="rounded-3 border border-1"
+                  onClick={this.phoneSort}
+                >
+                  Phone 🔼
+                </button>
               </th>
               <th>
-                <button onClick={this.emailSort}>Email 🔼</button>
+                <button
+                  className="rounded-3 border border-1"
+                  onClick={this.emailSort}
+                >
+                  Email 🔼
+                </button>
               </th>
               <th>
-                <button onClick={this.dobSort}>DOB 🔼</button>
+                <button
+                  className="rounded-3 border border-1"
+                  onClick={this.dobSort}
+                >
+                  DOB 🔼
+                </button>
               </th>
             </tr>
           </thead>
